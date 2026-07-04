@@ -105,6 +105,10 @@ AgentCoreは回答をServer-Sent Eventsで逐次返す。一方、現在のExApp
 - 担当部門に相談
 - AWSクイズ
 
+入力項目と選択肢は、次のようなJSONで定義する。
+
+![AWS Specialistの入力定義JSON](images/AWS相談アプリ入力定義.png)
+
 JSONを登録すると、源内Webが入力画面を自動生成する。個別のフロントエンドを新しく開発する必要はない。
 
 ## 5. 源内Webへ登録する
@@ -143,9 +147,9 @@ API Gatewayには送信元IP制限を設定していない。呼び出し元は�
 7. 続けて質問し、会話履歴が引き継がれることを確認する
 8. 必要に応じて画像やテキストファイルを添付する
 
-完成時の利用画面は、既存ExAppと同様にJSON定義から生成される。以下は別のExAppである翻訳アプリの例だが、AWS Specialistも同じ仕組みで入力欄、選択肢、実行ボタンが構成される。
+AWS Specialistの利用画面も、既存ExAppと同様にJSON定義から生成される。定義したテキストエリアと相談モードの選択肢が画面に反映される。
 
-![JSON定義から生成されたExApp画面の例](images/翻訳アプリ.png)
+![JSON定義から生成されたAWS Specialistの入力画面](images/AWS-Specialist入力画面.png)
 
 ## 7. 実装して分かったこと
 
