@@ -147,6 +147,10 @@ API Gatewayには送信元IP制限を設定していない。呼び出し元は�
 7. 続けて質問し、会話履歴が引き継がれることを確認する
 8. 必要に応じて画像やテキストファイルを添付する
 
+登録したAWS Specialistは、公開先チームのAIアプリ一覧に表示される。
+
+![AIアプリ一覧に表示されたAWS Specialist](images/AWS-Specialist一覧画面.png)
+
 AWS Specialistの利用画面も、既存ExAppと同様にJSON定義から生成される。定義したテキストエリアと相談モードの選択肢が画面に反映される。
 
 ![JSON定義から生成されたAWS Specialistの入力画面](images/AWS-Specialist入力画面.png)
