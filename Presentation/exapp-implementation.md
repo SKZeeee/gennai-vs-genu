@@ -163,6 +163,10 @@ AWS Specialistの利用画面も、既存ExAppと同様にJSON定義から生成
 
 ![JSON定義から生成されたAWS Specialistの入力画面](images/AWS-Specialist入力画面.png)
 
+実行後は、AWS Specialistの回答がMarkdown形式で画面に表示される。
+
+![AWS Specialistの実行結果画面](images/AWS-Specialist実行結果画面.png)
+
 ## 7. 実装して分かったこと
 
 ### 7.1 バックエンドはそのままでは接続できない
