@@ -22,6 +22,11 @@
     ],
     "default_value": "general"
   },
+  "conversation_history": {
+    "type": "textarea",
+    "title": "会話履歴",
+    "desc": "過去の会話履歴を引き継いで相談を続けます。"
+  },
   "attachments": {
     "type": "file",
     "title": "添付ファイル",
