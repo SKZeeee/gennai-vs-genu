@@ -1,0 +1,6 @@
+{
+  "app": "npx tsx bin/custom-aws-spe.ts",
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true
+  }
+}

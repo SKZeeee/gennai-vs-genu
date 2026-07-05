@@ -1,0 +1,35 @@
+{
+  "question": {
+    "type": "textarea",
+    "title": "AWSに関する相談内容",
+    "desc": "AWS構成、見積もり、レビュー内容を入力してください。",
+    "required": true,
+    "min_length": 1,
+    "max_length": 20000
+  },
+  "mode": {
+    "type": "select",
+    "title": "相談モード",
+    "required": true,
+    "items": [
+      { "title": "一般相談", "value": "general" },
+      { "title": "見積もり作成", "value": "estimate_creation" },
+      { "title": "見積もりレビュー", "value": "estimate_review" },
+      { "title": "構成検討", "value": "architecture_planning" },
+      { "title": "構成レビュー", "value": "architecture_review" },
+      { "title": "担当部門に相談", "value": "department_consultation" },
+      { "title": "AWSクイズ", "value": "quiz" }
+    ],
+    "default_value": "general"
+  },
+  "attachments": {
+    "type": "file",
+    "title": "添付ファイル",
+    "desc": "txt、md、csv、json、png、jpg、webp、gifに対応します。",
+    "required": false,
+    "accept": ".txt,.md,.csv,.json,image/png,image/jpeg,image/webp,image/gif",
+    "multiple": true,
+    "max_size": "4MB",
+    "max_file_count": 5
+  }
+}

@@ -1,0 +1,7 @@
+botocore
+boto3
+bedrock-agentcore
+strands-agents
+strands-agents[otel]
+mcp-proxy-for-aws
+mcp
