@@ -167,6 +167,10 @@ AWS Specialistの利用画面も、既存ExAppと同様にJSON定義から生成
 
 ![AWS Specialistの実行結果画面](images/AWS-Specialist実行結果画面.png)
 
+会話履歴を有効にすると、実行結果から過去の文脈とセッションを引き継いで相談を続けられる。
+
+![AWS Specialistの会話継続画面](images/AWS-Specialist会話継続画面.png)
+
 ## 7. 実装して分かったこと
 
 ### 7.1 バックエンドはそのままでは接続できない
